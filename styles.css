@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(25, 25, 136);
+}
+.container {
+  width: 500px;
+  background-color: rgb(221, 221, 221);
+  padding: 0.25rem 2rem 1rem 2rem;
+  border-radius: 8px;
+}
+.container .title {
+  font-size: 1.5rem;
+  padding-bottom: 0.4rem;
+  font-weight: 500;
+  color: rgb(32, 32, 88);
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.currency {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#currency1 {
+  padding: 0.2rem 0.5rem;
+}
+#currency2 {
+  padding: 0.2rem 0.5rem;
+}
+#amount1 {
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(221, 221, 221);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(55, 55, 161);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+#amount2 {
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(221, 221, 221);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(55, 55, 161);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.sub-container .swap {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.swap-btn {
+  padding: 0.2rem 0.75rem;
+  font-size: 1rem;
+  background-color: rgb(55, 55, 161);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.rate {
+  font-size: 1rem;
+  color: rgb(58, 58, 58);
+  font-weight: 500;
+}
